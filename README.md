@@ -10,3 +10,4 @@ Use a separat potentiometer in controlling each of the color of the RGB led (Red
 ### Setup
 ![Setup](https://raw.githubusercontent.com/vladfxstoader/IntroductionToRobotics/main/Homework1/setup.jpg)
 ### [Demo](https://www.youtube.com/watch?v=tbynfti3OEo)
+### [Code](https://github.com/vladfxstoader/IntroductionToRobotics/blob/main/Homework1/Homework1.ino)
