@@ -47,7 +47,6 @@ Pressing  the  button  in  any  state  other  than  state  1  should NOT yield a
 TODO
 ### Demo
 TODO
-### Code
-TODO
+### [Code](https://github.com/vladfxstoader/IntroductionToRobotics/blob/main/Homework2/Homework2.ino)
 
 </details>
