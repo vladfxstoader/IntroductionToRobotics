@@ -44,9 +44,8 @@ The system has the following states:
 
 Pressing  the  button  in  any  state  other  than  state  1  should NOT yield any actions.
 ### Setup
-TODO
-### Demo
-TODO
+![Setup](https://raw.githubusercontent.com/vladfxstoader/IntroductionToRobotics/main/Homework2/setup.jpg)
+### [Demo](https://www.youtube.com/watch?v=SKbSxfOfX60)
 ### [Code](https://github.com/vladfxstoader/IntroductionToRobotics/blob/main/Homework2/Homework2.ino)
 
 </details>
