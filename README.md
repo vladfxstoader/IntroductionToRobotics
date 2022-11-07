@@ -69,9 +69,8 @@ The system has the following states:
 Long pressing the button to reset should only be available in state 1.
 
 ### Setup
-TODO
-### Demo
-TODO
+![Setup](https://raw.githubusercontent.com/vladfxstoader/IntroductionToRobotics/main/Homework3/setup.jpg)
+### [Demo](https://www.youtube.com/watch?v=EkUDkmLJTAA)
 ### [Code](https://github.com/vladfxstoader/IntroductionToRobotics/blob/main/Homework3/Homework3.ino)
 
 </details>

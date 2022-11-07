@@ -25,7 +25,7 @@ int segments[segSize] = {
 };
 
 // declare variables for blinking state
-int currentBlinkPin = 4;
+int currentBlinkPin = 11;
 byte blinkLedState = LOW;
 byte doNotBlink = LOW;
 
@@ -64,14 +64,22 @@ void setup() {
 
 // function that displays the state of all the segments
 void displayLeds() {
-  digitalWrite(pinA, ledAState);
-  digitalWrite(pinB, ledBState);
-  digitalWrite(pinC, ledCState);
-  digitalWrite(pinD, ledDState);
-  digitalWrite(pinE, ledEState);
-  digitalWrite(pinF, ledFState);
-  digitalWrite(pinG, ledGState);
-  digitalWrite(pinDP, ledDPState);
+  if (currentBlinkPin != pinA)
+    digitalWrite(pinA, ledAState);
+  if (currentBlinkPin != pinB)
+    digitalWrite(pinB, ledBState);
+  if (currentBlinkPin != pinC)
+    digitalWrite(pinC, ledCState);
+  if (currentBlinkPin != pinD)
+    digitalWrite(pinD, ledDState);
+  if (currentBlinkPin != pinE)
+    digitalWrite(pinE, ledEState);
+  if (currentBlinkPin != pinF)
+    digitalWrite(pinF, ledFState);
+  if (currentBlinkPin != pinG)
+    digitalWrite(pinG, ledGState);
+  if (currentBlinkPin != pinDP)
+    digitalWrite(pinDP, ledDPState);
   digitalWrite(currentBlinkPin, blinkLedState);
 }
 
