@@ -74,3 +74,27 @@ Long pressing the button to reset should only be available in state 1.
 ### [Code](https://github.com/vladfxstoader/IntroductionToRobotics/blob/main/Homework3/Homework3.ino)
 
 </details>
+
+
+# Homework 4
+
+<details>
+<summary>See details</summary>
+<br>
+  
+### Components
+1 joystick, 1 4 digit 7-segment display, a 74hc595 shift register.
+### Task
+The joystick should be used to move through the 4 digit 7-segment displays digits; the button will be pressed in orded to lock in on the current digitthe other axis should be used to increment or decrement the number. Holding button pressed should reset all the digit values and the current position to the first digit in the first state.
+
+The system has the following states:
+1. State 1: a joystick axis  can be used to cycle through the 4 digits; using the other axis does nothing. A blinking decimal point shows the current digit position. When pressing the button, the selected digit is locked in and the second state is entered.
+2. State 2: in this state, the decimal point stays always on, no longer blinking and the axis can not longer be used to cycle through the 4 digits. Instead, using the other axis, the number on the current digit IN HEX can be incremented or decremented. Pressing the button again return to the previous state. When changing the number, it can be incremented for each joystick movement - it does not increment continuosly if the joystick is kept in one position.
+3. Reset: toggled by long pressing the buttononly in the first state. When resetting, all the digits go back to 0 and the current position is set to the first (rightmost) digit, in the first state.
+
+### Setup
+![Setup](https://raw.githubusercontent.com/vladfxstoader/IntroductionToRobotics/main/Homework4/setup.jpg)
+### [Demo](https://www.youtube.com/watch?v=2rY6zYWMR2M)
+### [Code](https://github.com/vladfxstoader/IntroductionToRobotics/blob/main/Homework4/Homework4.ino)
+
+</details>
