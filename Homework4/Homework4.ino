@@ -36,6 +36,9 @@ int digits[displayCount] = {
   0, 0, 0, 0 
 };
 
+const int firstBlinkInterval = 400;
+const int secondBlinkInterval = 800;
+
 const int pinSW = 2;
 const int pinX = A0;
 const int pinY = A1;
@@ -172,10 +175,10 @@ void writeNumber(int displayNo, int selected) {
       }
       else { // if the digit display is not selected, the dp must blink
         digitToWrite = digitArray[digits[i]];
-        if (millis() - dpBlink > 400) {
+        if (millis() - dpBlink > firstBlinkInterval) {
           digitToWrite = digitArray[digits[i]] + 1;
         }
-        if (millis() - dpBlink > 800) {
+        if (millis() - dpBlink > secondBlinkInterval) {
           digitToWrite = digitArray[digits[i]];
           dpBlink = millis();
         }
