@@ -98,3 +98,37 @@ The system has the following states:
 ### [Code](https://github.com/vladfxstoader/IntroductionToRobotics/blob/main/Homework4/Homework4.ino)
 
 </details>
+
+# Homework 5
+
+<details>
+<summary>See details</summary>
+<br>
+  
+### Task
+Create a menu for the game, emphasis on it. It should use the joystick to scroll on the LCD. The menu should include the following functionality:
+
+1. When powering up a game, a greeting message should be shown fora few moments.
+
+2. The following categories:
+
+a) Start game
+
+b) Highscore: update it when the game is done. Save the top 5 values in EEPROM with name and score
+
+c) Settings: enter name, difficulty (saved to EEPROM), LCD brightness control (saved to EEPROM), matrix brightness control (saved to EEPROM), sounds on or off (saved to eeprom).
+
+d) About: details about the creator (game name, author, GitHub user)
+
+e) How to play: short and informative description
+
+3. While playing the game: display all the relevant info
+
+4. Upon game ending: message and inform the player if they beat the highscore.
+
+### Setup
+![Setup](https://raw.githubusercontent.com/vladfxstoader/IntroductionToRobotics/main/Homework5/setup.jpg)
+### [Demo](https://www.youtube.com/watch?v=BP00wY5tqnU)
+### [Code](https://github.com/vladfxstoader/IntroductionToRobotics/blob/main/Homework5/Homework5.ino)
+
+</details>
