@@ -127,8 +127,11 @@ e) How to play: short and informative description
 4. Upon game ending: message and inform the player if they beat the highscore.
 
 The navigation through the menu and the submenus is made with up/down movements. To enter a submenu, the joystick movement must be to the right, and to exit a submenu, to the left. While scrolling through the menu, a visual representation of the current item is displayed on the matrix.
+
 To start the game, the player has to enter the start game submenu, and then press the button. While playing, the name of the player and the score appear on the LCD. For now, the minigame ends when the score is 10, and it informs the player if they beat a highscore by telling them which place on the leaderboard they are now on.
+
 In the leaderboard submenu, there are the best 5 scores (initially, they are all 0).
+
 In the settings menu, the user can modify the LCD brightness, the matrix brightness, the difficulty, the sounds, they can reset the leaderboard and input their name.
 
 ### Setup
